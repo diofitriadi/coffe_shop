@@ -1,3 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  @font-face {
+    font-family: 'Rubik';
+    src: url('/fonts/Rubik-VariableFont_wght.woff2') fomrat('woff2'); 
+    font-weight: 400;
+    font-display: swap;
+    font-style: normal;
+  } 
+}
+
 html,
 body {
   padding: 0;
@@ -13,14 +27,15 @@ a {
 
 * {
   box-sizing: border-box;
+  font-family: 'Rubik', sans-serif;
 }
 
-@media (prefers-color-scheme: dark) {
+@media (prefers-color-scheme: light) {
   html {
-    color-scheme: dark;
+    color-scheme: light;
   }
   body {
-    color: white;
-    background: black;
+    color: black;
+    background: white;
   }
 }
