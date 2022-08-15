@@ -1,6 +1,6 @@
 import Products from "../../layouts/products"
 
-const products = ({products}) => {
+const product = ({products}) => {
   return (
     <>
      <Products products={products}/> 
@@ -8,5 +8,5 @@ const products = ({products}) => {
   );
 };
 
-export default products;
+export default product;
 

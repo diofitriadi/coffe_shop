@@ -1,7 +1,7 @@
 const Footer = () => {
   return (
     <>
-      <div className="flex flex-row p-5 my-20 mx-24 w-11/12">
+      <div className=" flex flex-row p-5 my-20 mx-24 w-11/12">
         <div className="w-3/5">
           <div className="flex flex-row mb-7">
             <img className="mr-4" src="icons/coffeLogo.svg" />

@@ -1,4 +1,5 @@
 import Layout from "../../components/Layout";
+import Link from "next/link";
 import React, { useEffect } from "react";
 import axios from "axios";
 
@@ -97,8 +98,8 @@ const Products = () => {
           </div>
         </div>
         <div className="w-4/6 p-5">
-          <div className="flex justify-center cursor-pointer text-amber-900">
-            <p className="mx-5">Favorite Product</p>
+          <div className="flex justify-center cursor-pointer my-5 text-amber-900">
+            <p className="mx-5">All Products</p>
             <p className="mx-5">Coffee</p>
             <p className="mx-5">Non-Coffee</p>
             <p className="mx-5">Foods</p>
@@ -108,21 +109,23 @@ const Products = () => {
             <div className="flex mt-8 px-5 flex-wrap justify-evenly">
           {products.map((products, index)=> {
             return (
-                  <div className="my-12 p-2 border-1 shadow-xl rounded-xl" key={index}>
+                  <Link href={`/products/${products.products_id}`}>
+                  <div className="w-1/5 my-12 mx-2 p-2 border-1 shadow-xl rounded-xl" key={index}>
+                    <button>
                     <img className="-mt-16 my-8 rounded-full" 
                     src={`http://localhost:3001/uploads/${products.products_image}`}
                     style={{
-                      width: "9vw",
-                      height: "20vh",
+                      width: "190px",
+                      height: "110px",
                     }}
                     />
                     <div className="flex flex-col">
                        <p className="font-black ">{products.products_name}</p>
                         <p className="font-bold text-sm mt-2">IDR. {products.products_price}</p>
                     </div>
-                   
+                    </button>
                   </div>
-                
+                  </Link>
             );
           })}
             </div>

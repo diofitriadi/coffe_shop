@@ -8,6 +8,7 @@ const Meta = ({meta}) => {
         <title>{meta.title}</title>
         <meta name="keyword" content={meta.keyword}/>
         <meta name='description' content={meta.description} />
+        <link rel="icon" href="/favicon.png" />
         <meta charSet='utf-8'/>
       </Head>
     </>
