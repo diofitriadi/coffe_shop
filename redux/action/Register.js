@@ -25,7 +25,7 @@ export const AuthRegister = (registerData) => {
         dispatch(RegisterRequest())
         axios({
             method: "POST",
-            url: "http://localhost:3001/api/v1/auth/register",
+            url: `https://coffee-shop-be-dio.herokuapp.com/api/v1/auth/register`,
             data: {
                 email: registerData.email, 
                 password: registerData.password, 

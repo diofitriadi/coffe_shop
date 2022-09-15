@@ -4,7 +4,7 @@ const nextConfig = {
   swcMinify: true,
   images: {
     domains: [
-      'http://localhost:3001'
+      `https://coffee-shop-be-dio.herokuapp.com`
     ],
   },
 }

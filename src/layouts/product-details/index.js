@@ -2,8 +2,10 @@ import Layout from '../../components/Layout'
 import React ,{ useState } from 'react'
 
 
-const ProductsDetail = () => {
-  const [count, setCount] = useState(0)
+
+const ProductsDetail = ({productsDetail}) => {
+  const productDetail = productsDetail.data[0]
+  const [count, setCount] = useState(1)
   const increment = () => {
     if(count >= 10) {
       setCount(10)
@@ -12,33 +14,35 @@ const ProductsDetail = () => {
     }
   }
   const decrement = () => {
-    if(count <= 0) {
-      setCount(0)
+    if(count <= 1) {
+      setCount(1)
     }
     else {
       setCount(count - 1)
     }
   }
   
+  
   return(
     <Layout>
     <div className='bg-slate-200 '>
       <div className='w-full mx-auto pt-10 pb-24 px-20'>
         <div className='text-sm'>
-          <p className='ml-7'>Favorite and Promo {'>'}<span className='text-[#6A4029] font-bold'>Cold Brew</span></p>
+          <p className='ml-7'>Favorite and Promo {'>'}<span className='text-[#6A4029] font-bold'>{productDetail.product_name}</span></p>
         </div>
         <div className='flex mt-5 w-full justify-around'>
           <div className='flex flex-col justify-center items-center'>
-            <img src='/img/coldbrew.png' className='rounded-full w-[330px] my-8'/>
-            <h1 className='text-3xl font-extrabold'>Cold Brew</h1>
-            <h3 className='text-xl my-5'>Rp. 30.000</h3>
+            <img src={`https://coffee-shop-be-dio.herokuapp.com/uploads/${productDetail.product_image}`} className='rounded-full w-[330px] my-8'/>
+            <h1 className='text-3xl font-extrabold'></h1>
+            <h3 className='text-xl my-5'>Rp. {productDetail.product_price}</h3>
             <button className='bg-[#6A4029] p-3 w-4/5 my-7 rounded-xl text-white font-extrabold'>Add to cart</button>
             <button className='bg-[#FFBA33] p-3 w-4/5 rounded-xl text-[#6A4029] font-extrabold'>Ask a staff</button>
           </div>
           <div className='flex flex-col w-5/12'>
-          <div className='bg-white  rounded-lg p-12 shadow-lg h-fit text-[#6A4029] text-xl'>
+          <div className='bg-white rounded-lg px-12 py-10 shadow-lg h-fit text-[#6A4029] text-xl'>
+            <p className='mb-16 text-3xl font-extrabold text-center'>{productDetail.product_name}</p>
             <p className='mb-16'>Delivery only on <b>Monday to Friday at 1 - 7 pm</b></p>
-            <p>Cold brewing is a method of brewing that combines ground coffee and cool water and uses time instead of heat to extract the flavor. It is brewed in small batches and steeped for as long as 48 hours.</p>
+            <p>{productDetail.product_desc}</p>
               <div className='mt-16'>
                 <p className='text-center text-black font-bold'>Choose a size</p>
                 <div className='flex justify-center'>
