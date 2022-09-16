@@ -21,8 +21,8 @@ const Products = () => {
   return (
     <>
       <Layout>
-        <div className="flex mx-24 ">
-          <div className="flex flex-col w-2/6 p-5">
+        <div className="flex flex-col md:flex-row md:mx-24">
+          <div className="flex flex-col md:w-2/6 w-full p-5 order-2 md:order-1">
             <div className="text-xl mb-3 font-bold text-yellow-900 text-center">
               Promo Today
             </div>
@@ -97,31 +97,23 @@ const Products = () => {
               </p>
             </div>
           </div>
-          <div className="w-4/6 p-5">
+          <div className="md:w-4/6 w-full p-5 order-1 md:order-2">
             <div className="flex justify-center cursor-pointer my-5 text-amber-900">
-              <p className="mx-5">All Products</p>
-              <p className="mx-5">Coffee</p>
-              <p className="mx-5">Non-Coffee</p>
-              <p className="mx-5">Foods</p>
-              <p className="mx-5">Add-Ons</p>
+              <p className="mx-5 font-bold text-xl">View All Of Our Products</p>
             </div>
             <div className="flex text-center">
-              <div className="flex mt-8 px-5 flex-wrap justify-evenly">
+              <div className="flex flex-row mt-8 px-5 flex-wrap justify-between md:justify-evenly">
                 {product.map((product, index) => {
                   return (
                     <Link href={`/product/${product.id}`}>
                       <div
-                        className="w-1/5 my-12 mx-2 p-2 border-1 shadow-xl rounded-xl"
+                        className="md:w-1/5 w-5/12 my-12 mx-2 p-2 border-1 shadow-xl rounded-xl"
                         key={index}
                       >
                         <button>
                           <img
-                            className="-mt-16 my-8 rounded-full"
+                            className="w-[150px] h-[130px] md:w-[190px] md:h-[110px] -mt-16 my-8 rounded-full"
                             src={`https://coffee-shop-be-dio.herokuapp.com/uploads/${product.product_image}`}
-                            style={{
-                              width: "190px",
-                              height: "110px",
-                            }}
                           />
                           <div className="flex flex-col">
                             <p className="font-black ">
