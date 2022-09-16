@@ -1,5 +1,7 @@
 import Layout from "../../components/Layout";
 import React, { useState } from "react";
+import Link from "next/link";
+
 
 const ProductsDetail = ({ productsDetail }) => {
   const productDetail = productsDetail.data[0];
@@ -129,9 +131,12 @@ const ProductsDetail = ({ productsDetail }) => {
             </div>
           </div>
           <div className="md:w-3/12 justify-center items-center flex md:-mt-20">
-            <button className="bg-[#FFBA33] rounded-3xl md:p-10 p-4 shadow-2xl font-bold text-xl w-[60%] mt-5">
-              CHECKOUT
-            </button>
+            <Link href='/checkout'>
+              <button className="bg-[#FFBA33] rounded-3xl md:p-10 p-4 shadow-2xl font-bold text-xl w-[60%] mt-5">
+                CHECKOUT
+              </button>            
+            </Link>
+
           </div>
         </div>
       </div>
