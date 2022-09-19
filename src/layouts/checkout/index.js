@@ -13,7 +13,7 @@ const Checkout = () => {
             />
             <div className="flex flex-col">
               <div className="relative lg:ml-32 md:ml-7 sm:ml-12">
-                <h1 className="font-extrabold text-base text-white md:w-full w-4/6 lg:leading-snug mt-0 mb-6 lg:ml-0 lg:text-2xl md:text-xl md:mb-5 text-black ml-10 md:ml-0">
+                <h1 className="font-extrabold text-base md:w-full w-4/6 lg:leading-snug mt-0 mb-6 lg:ml-0 lg:text-2xl md:text-xl md:mb-5 text-black ml-10 md:ml-0">
                   Checkout your <b />
                   product now
                 </h1>
