@@ -8,7 +8,7 @@ const Products = () => {
   useEffect(() => {
     axios({
       method: "GET",
-      url: `https://coffee-shop-be-dio.herokuapp.com/api/v1/product`,
+      url: `${process.env.NEXT_PUBLIC_URL_BE}/api/v1/product`,
     })
       .then((res) => {
         setProduct(res.data.data);
@@ -113,7 +113,7 @@ const Products = () => {
                         <button>
                           <img
                             className="w-[150px] h-[130px] md:w-[190px] md:h-[110px] -mt-16 my-8 rounded-full"
-                            src={`https://coffee-shop-be-dio.herokuapp.com/uploads/${product.product_image}`}
+                            src={`${process.env.NEXT_PUBLIC_URL_BE}/uploads/${product.product_image}`}
                           />
                           <div className="flex flex-col">
                             <p className="font-black ">

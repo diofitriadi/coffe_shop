@@ -36,7 +36,7 @@ const ProductsDetail = ({ productsDetail }) => {
           <div className="flex flex-col md:flex-row  mt-5 w-full justify-around">
             <div className="flex flex-col justify-center items-center">
               <img
-                src={`https://coffee-shop-be-dio.herokuapp.com/uploads/${productDetail.product_image}`}
+                src={`${process.env.NEXT_PUBLIC_URL_BE}/uploads/${productDetail.product_image}`}
                 className="rounded-full w-[200px] h-[200px] md:w-[330px] md:h-[330px] my-8"
               />
               <h1 className="text-3xl font-extrabold"></h1>
@@ -102,7 +102,7 @@ const ProductsDetail = ({ productsDetail }) => {
         <div className="bg-white flex flex-col justify-center md:flex-row">
           <div className="bg-white shadow-2xl rounded-3xl flex flex-row w-9/12 md:w-5/12 p-4 justify-around -mt-16 md:mx-8 mx-auto py-7">
             <img
-              src={`https://coffee-shop-be-dio.herokuapp.com/uploads/${productDetail.product_image}`}
+              src={`${process.env.NEXT_PUBLIC_URL_BE}/uploads/${productDetail.product_image}`}
               className="rounded-full w-[100px] h-[100px]"
             />
             <div className="flex flex-col md:flex-row">
