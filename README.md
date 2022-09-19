@@ -1,34 +1,116 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Coffee Shop Admin App
+<!-- NAVIGATION -->
+<ol>
+    <li>
+      <a href="#about-the-project">About The Project</a>
+      <ul>
+        <li><a href="#feature">Feature</a></li>
+        <li><a href="#built-with">Built With</a></li>
+        <li><a href="#related">Related</a></li>
+      </ul>
+    </li>
+    <li><a href="#demo">Demo</a>
+          <ul>
+        <li><a href="#screenshot">Screenshot</a></li>
+      </ul>
+    </li>
+    <li>
+      <a href="#getting-started">Getting Started</a>
+      <ul>
+        <li><a href="#prerequisites">Prerequisites</a></li>
+        <li><a href="#installation">Installation</a></li>
+      </ul>
+    </li>
+    <li><a href="#contributors">Contributors</a></li>
+</ol>
+<!-- ABOUT THE PROJECT -->
 
+## About The Project
+
+Coffee Shop is a website for selecting and buying product ranging from coffee to non-coffee
+
+### Feature
+
+- Register
+- Login as user
+- Select product
+- Get product details
+- Checkout page
+
+### Built With
+
+some technology used in this project.
+- [Next Js](https://nextjs.org/)
+- [Axios](https://www.npmjs.com/package/axios)
+- [Redux](https://redux.js.org/)
+- [React](https://reactjs.org/)
+- [Tailwind](https://tailwindcss.com/)
+- [Sweet Alert 2](https://sweetalert2.github.io/) 
+- [dotenv](https://www.npmjs.com/package/dotenv/)
+
+### Related
+
+[Coffee_Shop_be (API)](https://github.com/diofitriadi/coffe_shop_be)
+
+## Demo
+
+[Demo web app](https://coffee-shop-dio.vercel.app)
+### Screenshot
+
+|name  | web   | mobile |
+| ------------- | ------------- | -------------|
+| Landing page       | ![landing](https://lh3.googleusercontent.com/8LhpyaytaPD0TB_YQ0JO6N3TMV5zV9Fp1-pbJSN9ru4tRTTjQ62XPZ-a-DFYeIXYoN9bMPoI98r-yskestmKrBXyZcDcqdHc1uPhW7WH4LkX9m30A2EBPUR63_xe1t7T4q-hqQIr4cAH31ewC2MlC2Outp76c2Co_O-WgcA_JTbJT3MSsFvSlFdMFLCi4jnbbnGV55Jdo2juBmcxQRqY9ICaUwTMZ3Bs4oVxR78CoOG0W80x7qj3Pxp4qh2SaIEndmOfjBFQ3QRX_1bxEMdj_RyzYyJugFiUDpf1EaS9SlVW4Kdgcz6Y8DUcy10KRx3zXQJTOqBqn7psGsWIREIcvhb6F9DcBoQTd1l1FQ2Nxtc_OE-FwCyLRXetZ67o7Qt1ERWOK_D08yn6FvhvUYl9U-K1f5ijH0z1Vjgdp0tE1jk3EZkoiJt7nsRMLDjiKnR8nXhY009QvlWIAJ5t8S8OnZSD8Rv_feAnJi5Miq-zFQ13tw8jrs7MavloeohWRzHRv3-L0HvlNMMf_O5dL6P6pMqfTpgCEwGr08I10RqvkbOnKop2OaGT1knLX4p7ktNrJNRq6HP-zNBlGFmhWcG5ECkpDG8vX6i-blSQ-9gczcqR-GVtlag_UaJm55osss1ukl4GOpp5LyVmWCkMAnOPc46eWv4zXoWBPag9HPH_LFhUFP8_azdtyIOjNo6nKHOz1K_ozg2xX9ALkgYDFbMNzbcaeiKrBL_NFj90H4S_hfw_7rgjLCkty8ESzdl9C3canbusW-qS2e0PfKu9Ex29oOCXRysMWbOobEB6vjdE3fBRyZhmB3Vcz6NRnHWJ4hRQoc6oJeYMqkUflADOcwob9Mn0jHQoqDlTacjmeCk8m-RgMYXHoWhIUQUoJ1AHXRkOmdgm25qLVzsU9d5JS7dJDav9kFuNFY2p_de26f_O=w1299-h893-no?authuser=0)| ![res-landing](https://lh3.googleusercontent.com/r8M-wBMkE7gFsVqJ8ZWWPPhB1M5xMWAcc8wqAG5XKg7lm-tB67clWd96zwfFl08IeK_bbJuDduLKZ4DXoDL3VHB6Q-Ykf3JJzsR27FHsxdcJEv-MvM1VI647fxZJ0421VQ7c4HlItIZSD1mifnYg1Jlb5Qsdqt2noS_rk8oaGYwPBP6MSWgM8dp7gXCrgzne6b9amLaRPxSNr_t_8OuqmtHmchAe8U_cM9CDOV-CDiYiGE-ZKwCk2ENZTC_fjYNybXbL28I07sV3noFhYmUUYhWvZSelPvDA9-Nrfq_UKFl-KUZ_JQYehJASJ7eU1IosQjgCpwT7NPi2TEwzIs50949cOF0YV4TEPG7-JBT3xJEs83EpKkAAk6ezqzTdTsW01OKl-fRhELGOPwjEEj3BnRUgHTdIbBuM827VyEDp_fyDV_oLrEHLifkru3NlaoGt79pIYqYgpTxFvEl8QfpVkCE_F-vdRdZCHHL6Deb_-eyLqzGKLRJW8vO6FUAg8bwwXBnshsIYt42dsrKf_MZ7etbgQvUmQrDNpLhJARBq5LbKUg_AxMc6L8zP7ihYJ80HvWCzltVW4tdN-XpEnlcVWC-XzPk6Zx_6P0JjUwmsi5QKJBn-ZVEGwZcZMd8OJrjpURvtA_hwQgl2eouunIma-3c8rH2DwfwXyQlqD_IPZa8S7xcwRjRUgDHXqgnv8uIRUSA12eXGbAq35gWOCt3bdhjVlDgJnkCWG4-Zoox683uSNKMpQp4z7qN_4L2lnw=w491-h893-no?authuser=0) | 
+| Login        | ![login](https://lh3.googleusercontent.com/QtLgt9gYPa_8gL93hXe8IHpdP8FgILqa1wn2XqUPRHQwyqxj5uY-HStLUR-OTwVfqSjDOzA6L-K1ZpDdEtsREBCPQyzzNHacSv-slbSVhteIAIs8HtzwWNBvy0TOEW7EFS3qIFkZm-1-FfToeORtpaXJ52TASFZIlFb2g_LTqCjYAuCi5tCVBVPDsC7VlLgwxqu_OnrzTpSgeDox5vGhOenjP0AX2wei4ulsdbVa_S2GS7CPhbKtdwiJXZ3siD1bCiy8sZsKOydU05IOHB8cyrG5DQ13S0dUsFmwio_r4r-mD3H446_hM0vMfNeAaQtBMTcRzuLWorcWfGFKo3ElvzLOK8X1YfRVjexkL-CedoA_aJGM2wrzJsPzsuBHdkw8EFwRPKHussV_AZJ7r8n-ZR-3idRUsVQb9IOvtdzHkivPFtUrydl5BwTQDIPOKQIITxjx2PgAMhrg4IjIbtp-qvSyMiwtbCrZz_fa62ogChghqg3kuuwRw0pM70kFYuoOhQa4M4zcCypimQIPemsIHqptqmSh_6FZ7OE7NtsDGyAHt1Ik98_8FDxGvT8QFAGxY7sFakeNAbOXU6y0iIiv42daeEHz60kMgRBocVILJg8mZQngKBgxdVqSt2OdEeJM7jTkErWXbX8v5cPzs6jHtNFKlxcf17L9G2EPbsVu8JBXgZ3ufevDJ-tRZjO2hvHTYWL2nooFBF1id_1LDNSg5hgY0Yey669URO77iN5t_ObSvfATPCdaoYckRicGdw=w846-h893-no?authuser=0)| ![res-login](https://lh3.googleusercontent.com/1jy_dj8urgEQJW_gz-BAabMmSvhqBv8op7uh2ajrFw6VhIp6rsZOyEjXmf9Y4YfTIHCxLlDGAPeNLN0Pmmef1TuBBaiA_jnWhgFB8P4utdgPQGCVPPvVGsJe5vY9SdKbTI-Ob4z7xsWZ0LHPCA1mDlrX8bSMuBvGhHvpV4BMS_fs4gmKMLtP_yr4NtHz8mzjbp8RityPUxszF2VOkEUe9qb6lXj0gpYXMc1NTF0QRZ2TmCi567xv-ZQmm7U5eZQzQMHDstljoU5BsmF64yt9Lg0KE9HH69JJgRESphN9BaMBjirCmsdA2sO7xG9HcSFt03bQU7_Ng7xCTpfj3xiA-E3wXG3bEsFXW6LqCA2cRn6unygB233wloHg_JXzEdnuVuCyM84S1G1D6Y-6YoJ0ocF32uSjJ-yZk4qF-R2emmDnVZHIK3Sur4zJdGygSAHS-gjVfa7tIDuy4MXe8a9llul9AEEvdotcPi1eH_GnnaPc8iwV1zn9Z5pJ7MyeEtZcx5WEzHCC7d2DFpQ_ZNUwAe75SHpkVrr6bqa4NqCzrt_80YAQDOtEeCiHU6x429ZOyUl_Q6FOA_jI2EcvBYAEKtmxvCsyQb3B_HwxrV-rUzceFvKuI_cyVb9870Cj4MNV-fzXhEiLcMGghqwED5k0Q1z-ddCvuasjQrDMzAxGkxEgtc5HwT0zTXgW_mmOOOCSj9EwCT6zPDDfblElqee-89bA8xES4l3sraa2p6n0N4ZXoWmQKUTIq-9yujQHcQ=w266-h893-no?authuser=0) |
+| Register        | ![register](https://lh3.googleusercontent.com/UnTrMV0uVW_J09qViO5rQekZep-GvShqm4jLN4x5Y3K2DnDtWG2BynnZVbb0E5B3Ot2-KtzrAggKzlvMDQXCDKWLD7iDvz9iVZ3J8shfFAfwHSZZddKyBH0oI3BcC3MRwuo80JJ6L9IRHzshf0yRr6bYIz9b2ArLu4DTpCsbIa_YnHfxlnQ-k9jjVWACXJ02BjwvXgjpy91P_2SP9ALMF3BC_cFxe9bN6Xcr6EiOGUoaeQDoSB9F2YdxRf9IAFkDGWubsTD2lIiipBPJdPZnvquqOIstw3WLD0nl0NnjNEvHSzYRO9NWm5IKieCo6fF9cR54D_Bo8ENmdFpP7ox1uiiWqVJbuE0b8XLxX_JweeU7adlJePhoxyNmSii89liXelmn342uh_TD0QPErQwu6_90lv3wnURV88-r_CKFIw_y78loJRyYeqcecppKAocGF8LaX8UwILKNQ5xMOsqIQj8KDCKakkRfLMwCmOOU2i-5KFpzIPJnXLDWBY9arjroLoAHGhFEgDWTRPLPrEYvKYzGowYuwocyl9cthwsTWqvTxG54B-O6TYaL5k_CBCXXIHrawBJrlFeBh3nVAYL-8pfEK5COfBrpYX181tLEHm_QD35Rg36gWsPPhBkfWamFq6rgyK03JwHFHlnIYNSzqbnGRqAcAueS2A26TLOh4gUPYBQFFtMQFERWgk4NGEEg_GI0xgAfwxFeQJ0a6Rs4EfXmHx8tXG7aHpsJ2ks23K4apboMVFu0GSo0nOKurA=w846-h893-no?authuser=0)| ![res-register](https://lh3.googleusercontent.com/bFFjHAY0yTtydXsCOxYFyT66Uu724s97CjZFJxEDNDsTezhQjbgoGW0Y9_ysF2M6Y_7lZA_vnY551gt-kRqkFiYK1LDPOpz92nJ43Bee5Q0DNPLKRi_Je2OVge1xE8Msm2dnMXG4j9huMa7QLaksvyLMQ7vsu8W6WfDeWpgYDZ83Vob_gBYg9CdvVVKmCAHYWD4NoylNdv2IYwKYHneAsGNDiC2VHX-J1PeCkeXmxr9Bgtnn-NvXzJoMHgtWbHq_k5nh7unw1wOzb5imz_G-6OPzylyMjlU4lPh1mFg8mhDDFWom4S5YHchBDKhGqOoZrHeHEm_R-XNRftSvqPjzseVDqNkHBexdYjmh3e1TCKdnYTyl3hSJMINU2xVVSoKOQsd7WTxjZ7mUmG_xj4z3qHvGuRamEI3DTpqgHJPG7Dasz5ha1_HAr9Q2HJcK4RZhXoD1dZmpGuamInjXUQ2Q7HsnIRgbEuyhv-UsX6vGZ5EomNWRtfxbj4ErEhj6QrIHlM_DMeim45vsB7bRh_oggp3eUrClBfCrrqf0KV-tYZPG0SWGpDYePKm15l4H0bwNAey6kOBK0pmM5-Vo5NTLjVys6kiuTpmsFRtXVwwzrf2AUyPMQccNvdJyHG9s1UZUjUs3PUsaGvRDSGg8XpfI6N5s1cVT-qninthntlR3BRhPvYRLgjY_KzglziwseYc9ISUwL-JWvGKzwhFGQKgWXNDRb5mxo6OG8yMdr7SXb5LzfANkfVJu4f-ths8NTA=w248-h893-no?authuser=0) |
+| Product | ![product](https://lh3.googleusercontent.com/wDA4WMAPy4GJ02adXhyzUMsd68-_mtFKYMwRdfXltm6KUubmlH3p_FEowbJO63-PvCiD7FcO6Z2f0WL23qn5KgFq3R9cZO4cdOAj_uYcoXuwygzu4deLmJYBXLJHWKfIsTM6oC2mKUsSQdLuktexC4WTgiIONh_DzJk_IpcwyvI2HN87arPlS3TBy6NO2_2522Dm3ur43jqg8grc3a3qWNtPbihbEX9RA-1OKL5SGdyRFYVpQ0WnVWB-FQNaVQzjX2mZfVWCqSZCK3H6N4h97hJchNRBfay3LTOi9HsBom9PT2eBP6g897kcnzrberC9Z_VDLZR9Yr2KCKJ-21dn3elNGGpFrcRgF0CiJczoyk-qbPGO3Fcy7ISXoYq5SshCwj5aZm8ZvHyuLkT6Fx87D8VqevMNsfStZe3o1O3jUPsm4mgZ04gmU8l6hs52mCARccjskl7rzshifJ1t2zq5wdnTUOpP-mpz2tddxGQxLshh6yL_iyDT34S4e7F-lv-xxFMcQZVYZ7v52A6cNsSc3LjsBuq7fPMA0sxA98DBl0BXfDTNqHww-GFmD_dk8s3ZCEHWe8Bm0lmCaSRIJv6j4n-puL67wbPguRQcfil_9Jbpwu9vwXAJlSwa3NVoikfxwiqKRmZjWdWyuXuuM7baXztWZxqQCfVQsOUceNndQDc6gToKY-MBSlOq38Q_RxtqgIem2LFaDsk6MBpkA8SpHOnAVY0np-IhUICW3sU5qpVW3T5zpEaePDIouuvwUx6nq9ROM26HkMByFtYpkZ7Plbh-54Hg98mqKrcPXOIyHnsv_QOqvgi8PkRoqCgCfrqh7Tx6ONLuOwV6kQSmApMVQ90_XGHkjEAvxGM1W2G1uPFGUEv1zUk30d8Vbt4RR5l0CiaWj_1ODVoTUkxjJT9N2nPY_tS3BO5EIE0tdqBF=w726-h893-no?authuser=0)|![res-product](https://lh3.googleusercontent.com/fU-hqpR1PYoCQdnESACGUxXJfp6nkpwHPWSv9TSCFGq4ZBoO7AbM3Zs5mT80Y2jDIeOoWUA7WEh8p1dzgT7mnlzFn3bZm6A9YViyKyQY4KvUt7yQYXkUgRFiILMfUXDXOIZ2v7MCM7DHbjEM1Eg9DlYUlCQigEWR0Z7_wWfOss-YUzCFa-XqedcFgpDmrgmtyXGgNHjVGB9aYoELaNrDd-HGALF9SXqBTEQbYwgBjiY7KiIUhvZsXE5Bq6O2S_YtEk2PochFQwQg8IsgXkfUeDLrs2A6laxzc1NrETcH3bQVB8d9J_bHZ0gUotdnqtmh0s_R4P2_oMhQLYUSHqIViM9E0MdunibiZpvhtzviIV5VITVqXlX8waBgvo6eYI_-uDDGdhp7GM9jFjqG93AbjZSTsSbhUhI7w5NO0LuL2SKGC8ksHrt2LVEgGZBps1p4HPAkCnqM1HpyLPE0FNTfPe1TNzgDXzYSRT9rQ0vpD8asaJAhrbfHuhT-6f6cIkT7cXQ3rbpv3XZIFfL3ef91_ae5dBOjhU-m3rzwuDcgUC-k5SBfiibYnBUkv6C7hra8VrneLo10QC1MS9X_rZUUBFdH4gv0qvQZOAaEkpuszPL20OsGe8Lplq_w8AsS55tK6A8BIk-OYXmeJcrGiuJKy6Eizbe-i9cNHLJsKdoH_N-5UOShJCRww1sQW320XNWYmDupFSoV7zp67hBfBqa1VeK-1jZecbx0iFCpjqnoMWyFBpl7soUhgAYLGOjkSJ3CQUvX_FszE6gQ0ZSdoxK1ME98EEzpaDRXjG-fTYyRz5xM5u25ykQBASbmcdlvorcNjbPxInSBr43zVEKGRxF1Aoa0ZJAAVtF5HI6cKzUD9MUT0IJKfMjZ1x3XBGMwh1Rzk7rr2EypV47SGJHhdwrGhfe7aVmZHtBb1FxPx4Hg=w279-h893-no?authuser=0) |
+| Product Detail |![product-detail](https://lh3.googleusercontent.com/SwFyR64EKV0MfG0qM5Px4Mi7MvtxYGGFWjx7tLZ_-BHoMXeUS-eLJqqmt6IZQAHYGvn0SLsrNQ2O8o-d20AGqlSfpTPYUM9Ryug6EBof8nHNVyUfi9VdGWdyGNTZ-k_tcQ4so4h7FuBbJD0_kem0H_Pjr94f6kbAFlHyBsFzom4Pk0-HJVfgrXvo65GBalfDPawuZxt8_uv7M3qyEqGCCQQlFpoYwI8ghdSaRE18Hj1ikikmpWNv1gEAZ7djb3p92lRZje9cVb8fA990dJ1ZHrtkxJXEHHM8xJ48CZ21XdHJg7pTCURr3t4wSIzioXZBhM6QvagZlWQkODUjqwGId28xgEyzRv7Jax-drgTeVNjJlsu14PKk1Sc9n8Dbi_4mvj_SFSNkm3UUojkbPl606HlIrQkMjBti0nq6xVMeGJ4AS49bWOsmSRHCupVwT1aKqyQIzyeHvuDs4GlMkI6KXI8yxAkLNMGAhRHxcdAuTkD5W8nINBUGJcEY9UtDsfWlIsZ_dzXaJZkaF8SiACeGLabehgCeAcd0xSiIJqAyBExGUqgyqEAr4Ifxc1ttij8P79Gk7hao_mSROHc018zAZmaklulsZ-JE80_4EOjSJvi9-HwC-lAyOfX0dVX3W6TEsAq1pTFSMzW9zJ20y0oJde0--LU5Ba_6bL0OpcR5ulNGXblakb24ZbKUQF5t2FGHZvi6SyAschQRYarXSFH1ghheHPkpW_QGKFySy-tDuak9tB0qyL07fBRjLGnvtw=w735-h893-no?authuser=0)| ![res-product-detail](https://lh3.googleusercontent.com/qmCv6A4imeXkZJfE24rvVOG2crGumlkOTIWNxo6ADa3mdEjGCMFm067nA5gCynJHlbCRxxL3na3DcHH6ZS6IdFBVvNwl3gpHIHnlyqTpBKDSQ0QfxJUhiACIkfScVVj8hWz8Wqbw9TsIUaPUVlllO6dK8aQWEUiAU6OzHxY9bYVbIVxlBnrJ58UGmriRbw-GcYv0REDFJshzn2mVQL3OZ0MMtm5YztWBAbsADu2coT8eUR-W75fKzt6nddP10JayVf53AsusK_xKbNICRI31G02__JybSBjVbILqEqa8d43d_q2SdkkAZWEA-MuxFseHcl205aRZodk7LormE1fsIidHA1RTvoZJFokcsTjjz88OmzFmiVlZn-R1_bphSAOzdw3au05bYZP3SkauB8oNWHSoDHrvlOWmHY89ieYeboiVfY0-IZjQhHnEkyzQF-_Z3svEKZk35C4RQUXlmRKGNmaEoZh5n50aUImJ6B2cDohZdt_LlWqmYEB-wUzMYltbzVa7fZLX4XQVBOgHdcdS9xcB2u0QWDJA7O-uokV-Xzjo8_-sewxPy3PICqOVvAM6_u84otLD91gXBhmsA7TKlMc07n7X2K8waZ5Gu8P51UJnBG_J1sZ5JmTve88z0NoPgmh57zvaWq00d1Wr891GR2caHNtEvv7ZfNIhc68sP3Z3fvi3W5pW2x5-nW_mB_eBJocEV7YBdEhGi7ednJ1DBmCFRed3oF8LJ72n2tlmrHFk6sEO3aKLJnVJeN-_xg=w246-h893-no?authuser=0) |
+| Checkout |![checkout](https://lh3.googleusercontent.com/pTc_M4G-S9aVdV-Ehq6Pac_lsxF2FgGOAP0SaST_MVIDvyVYoCuISSXg8lT8OvtA_BOSPlpcGEbKu_G_ofFDtLDi8YsCjrUZhm2SLyxZQ7LF0Mz3DvntZevFY9lJf2UYjHlZNkR0-gn0cbIwCnY3T9Kp2T7z7b2933oWeuadBqnwIGqrcVImJkYauk6k5_e2h1vdZx0fymg7MQVeSCSskDb8qqskRXNopq8sEdqE2Ku_Me6WhHGN1sQb0v0DSZgHZAx3upWYQHTE3NnQ0UTixZOilF_98FcJAyxB_duMGWHQ5ZpixEMZrs-KJVheKgiiigqwJ560pjjbKbXrlQuYfJnUtMPmpsXhgwdLDwDUVIp8XK9nBJU5_myKZaSVZiGnaS2dheHShjPkxYkxYhYSE_T3qXUdbA2ccP0uN3Mi1xHlwzf2h6hHlecnG9eiHqlCwBe0ne-CNEukVc4j9PM1DDaG-aqJd2ouZX9Bcp65okxYlrR20JVmzuBueg1iB0Pc4uP5BJ2cCuuh3SP0oN1DflV26HNvT41qeG8NMZeN0N0qdctYRrIuYNSYsCPmjyK6F559gDw276S4xZJ9Bo1J5w4iY4huh-xsbe2dd_xjFvKRJnKj84MxFNMgZ1BWzJAc2SVS8PJEzQq-UguFbC8mJAtksYw-G1a2jteGqbn1BdJCHqAzfucABhFaeUm-1A1_6U1jSZFMh6cLzWfL0aLS2OR3mZnLniHl5wT4zkyRW2Gf2dI8Z-jWZDPbX6Mt3w=w954-h893-no?authuser=0)| ![res-checkout](https://lh3.googleusercontent.com/UeSJjVi171fy_1kXA7g6qk48CztDDKJ57DKsGdq9pKivTexuiQEL1SRPB-a6GOc1RB0qAJ6ATA-seBSkGKNWIaUV-A2ZXhDGe81xaD9Jit-hbjN-3SMQeZB0MG8qchCcPZNpy9Ola1niVKUVbQkiJcceAMoayZeCvJCBTAreRYxE9eKs3jyrmOy6GotVhxH9XqesC9OD7IfOmcucyJrCsTlc0RBAW9rAKh-LCgkxg11v8zIs1KVZMFPEruz949a6hTd0Ncc_JPhqbqncXO9ThlnOpjqshp4tBnJG15eae1R4_tW_VkHTjXnAA7e3gJa1OEQfJP2_ErbM-n8jZqFUeFOKv74II-kNA94dUIloR4J2YPE569l0Fmbbqkq3bPWFbGPXv977rRK8S6i-Af1PkCHqT2N9QfwK2pzZ7PlmRRiSUDhSvyb_4iOKAYtbnBQu7pfouJMWH-znm3aSnq1p2MraOgILdgCgKfCQ5oABOvvQgrX22rbCOtbgr7XW16mEDnbwmGLxhPtb_rdjSZpMVgLs_mN2KxzhFR-zY-G77SPef5Nrz_PuN3DpLXVtpgWgmxqEQlNN9Sn5cie943l3F1dQb30ui9PVq6kaKkr4PAcvGgArcdOv1RaN3A03KeCd2EOLEyNGvFDCFm5ruiLqFKMgUzrPzM6T2K-U_mMCsKMNs3fCZ0WGbs-bCvhee8ToAdjqS9AAv51vWzEvGEs4zOcpUTDVqO0zfyIOr7luDYHSmyEqOyFx3TViAE3NqQ=w249-h893-no?authuser=0) |
+
+
+
+<!-- GETTING STARTED -->
 ## Getting Started
 
-First, run the development server:
+Get started with this project, intructions on setting up your project locally.<br />
+To get a local copy up and running follow these simple steps.
+### Prerequisites
 
-```bash
-npm run dev
-# or
-yarn dev
+Before installing, you must be install [nodejs.](https://nodejs.org) [yarn](https://yarnpkg.com/getting-started/install)
+### Installation
+
+1. Clone this repo
+ 
+```sh
+git clone https://github.com/diofitriadi/coffe_shop.git
+```
+2. Install npm package
+
+```sh
+cd coffe_shop
+npm install
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+3. Setting `.env`
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
+- create `.env` file
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
+```sh
+touch .env
+```
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+- Add configuration in `.env` file
 
-## Learn More
+```sh
+configuration .env 
+```
 
-To learn more about Next.js, take a look at the following resources:
+4. Start the project
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+```sh
+npm run dev
+```
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+<!-- Contributors -->
+## Contributors
 
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+- CREATED & UPDATED BY [Dio Fitriadi](https://github.com/diofitriadi)
